@@ -623,59 +623,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Main = function Main() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(14)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
 };
 
 var VideoDetail = function VideoDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
 };
 
 var Home = function Home() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(14), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
 };
 
 var Video = function Video() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(13), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(12), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
 };
 
 var Alone = function Alone() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(14), __webpack_require__.e(27)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(13), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
 };
 
 var Music = function Music() {
-  return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
+  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
 };
 
 var Playlist = function Playlist() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
 };
 
 var PlayListDetail = function PlayListDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
 };
 
 var RankList = function RankList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
 };
 
 var ArtistList = function ArtistList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
 };
 
 var ArtistDetail = function ArtistDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
 };
 
 var LatestMusic = function LatestMusic() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
 };
 
 var AlbumDetail = function AlbumDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
 };
 
 var SearchContent = function SearchContent() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
 };
 
 var routes = [{
