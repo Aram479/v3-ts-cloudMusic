@@ -489,7 +489,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"BASE_URL\", function() { return BASE_URL; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"TIME_OUT\", function() { return TIME_OUT; });\nvar BASE_URL = '';\nvar TIME_OUT = 10000;\n\nif (true) {\n  //如果当前环境为开发环境\n  BASE_URL = '/api';\n} else {}\n\n\n\n//# sourceURL=webpack:///./src/servers/request/config.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"BASE_URL\", function() { return BASE_URL; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"TIME_OUT\", function() { return TIME_OUT; });\nvar BASE_URL = '';\nvar TIME_OUT = 10000;\n\nif (true) {\n  //如果当前环境为开发环境\n  BASE_URL = 'https://cloud-music-api-psi.vercel.app/';\n} else {}\n\n\n\n//# sourceURL=webpack:///./src/servers/request/config.ts?");
 
 /***/ }),
 
