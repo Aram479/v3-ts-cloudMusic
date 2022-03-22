@@ -215,7 +215,7 @@ __webpack_require__.r(__webpack_exports__);
 function useGetters(moduleName, mapper) {
   var mapperFn = vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"];
 
-  if (typeof moduleName === 'string' && moduleName.length > 0) {
+  if (typeof moduleName === "string" && moduleName.length > 0) {
     mapperFn = Object(vuex__WEBPACK_IMPORTED_MODULE_0__["createNamespacedHelpers"])(moduleName).mapGetters;
   } else {
     mapper = moduleName;
@@ -302,7 +302,7 @@ function useState(moduleName, mapper) {
 
   /* 如果moduleName有值，表示传入了子模块字符串 */
 
-  if (typeof moduleName === 'string' && moduleName.length > 0) {
+  if (typeof moduleName === "string" && moduleName.length > 0) {
     //将mapperFn更新为子模块的mapState
     mapperFn = Object(vuex__WEBPACK_IMPORTED_MODULE_0__["createNamespacedHelpers"])(moduleName).mapState;
   } else {

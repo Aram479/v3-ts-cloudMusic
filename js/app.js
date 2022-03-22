@@ -224,6 +224,44 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!./assets/css/base.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./src/assets/css/base.css");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
+// Module
+exports.push([module.i, "#app {\n  position: relative;\n  width: 100vw;\n  height: 100vh;\n  font-family: \"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"\\5fae\\8f6f\\96c5\\9ed1\", Arial, sans-serif;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./src/assets/css/base.css":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./src/assets/css/base.css ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "* {\n  padding: 0;\n  margin: 0;\n}\na {\n  color: var(--color-text);\n  text-decoration: none;\n}\ni {\n  font-style: normal;\n  display: inline-block;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n/* 单行文本省略 */\n.linelittle {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  word-break: break-all;\n}\n\n/* 多行文本省略 */\n.morelittle {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  display: -webkit-box;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n}\n.el-scrollbar__wrap {\n  overflow-x: hidden !important;\n}\n.mask {\n  height: 100%;\n}\n/* 消除poppver内置padding */\n.el-popover {\n  padding: 0 !important;\n}\n/* 暂无数据 */\n.no-data{\n  color: #797979;\n  font-size: 13px;\n  text-align: center;\n  margin-top: 100px;\n}\n.volume-popover {\n  width: 30px !important;\n  display: flex;\n  justify-content: center;\n  padding: 12px 0 10px 0 !important;\n  min-width: unset !important;\n}\n/* 修改下el-input样式 */\n.el-input__inner:focus {\n  border-color: #cd0101 !important;\n}\n.el-input__prefix-inner,.el-input__suffix-inner {\n  pointer-events: all;\n  display: inline-flex;\n  align-items: center;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/assets/css/animate.css":
 /*!************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??ref--7-oneOf-3-2!./src/assets/css/animate.css ***!
@@ -260,48 +298,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!./assets/css/base.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./src/assets/css/base.css");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
-// Module
-exports.push([module.i, "#app {\n  position: relative;\n  width: 100vw;\n  height: 100vh;\n  font-family: \"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"\\5fae\\8f6f\\96c5\\9ed1\", Arial, sans-serif;\n}\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./src/assets/css/base.css":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./src/assets/css/base.css ***!
-  \*****************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "* {\n  padding: 0;\n  margin: 0;\n}\na {\n  color: var(--color-text);\n  text-decoration: none;\n}\ni {\n  font-style: normal;\n  display: inline-block;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n/* 单行文本省略 */\n.linelittle {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  word-break: break-all;\n}\n\n/* 多行文本省略 */\n.morelittle {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  display: -webkit-box;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n}\n.el-scrollbar__wrap {\n  overflow-x: hidden !important;\n}\n.mask {\n  height: 100%;\n}\n/* 消除poppver内置padding */\n.el-popover {\n  padding: 0 !important;\n}\n/* 暂无数据 */\n.no-data{\n  color: #797979;\n  font-size: 13px;\n  text-align: center;\n  margin-top: 100px;\n}\n.volume-popover {\n  width: 30px !important;\n  display: flex;\n  justify-content: center;\n  padding: 12px 0 10px 0 !important;\n  min-width: unset !important;\n}\n/* 修改下el-input样式 */\n.el-input__inner:focus {\n  border-color: #cd0101 !important;\n}\n.el-input__prefix-inner,.el-input__suffix-inner {\n  pointer-events: all;\n  display: inline-flex;\n  align-items: center;\n}\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader-v16/dist/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--7!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=template&id=7ba5bd90 ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--7!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=template&id=7ba5bd90 ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -341,23 +341,23 @@ function render(_ctx, _cache) {
 
 /***/ }),
 
-/***/ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!./node_modules/vue-style-loader??ref--11-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!./node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!./node_modules/vue-style-loader??ref--11-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-oneOf-1-2!./node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* unplugin-vue-components disabled */// style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!../node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less");
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!../node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less");
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("2ebaa454", content, false, {"sourceMap":false,"shadowMode":false});
+var update = add("7095322c", content, false, {"sourceMap":false,"shadowMode":false});
 // Hot Module Replacement
 if(false) {}
 
@@ -374,15 +374,15 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=7ba5bd90 */ "./src/App.vue?vue&type=template&id=7ba5bd90");
 /* harmony import */ var _App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less */ "./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader-v16/dist/exportHelper.js */ "./node_modules/vue-loader-v16/dist/exportHelper.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/exportHelper.js */ "./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/exportHelper.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__);
 /* unplugin-vue-components disabled */
 const script = {}
 
 
 
 
-const __exports__ = /*#__PURE__*/E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2___default()(script, [['render',_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__["render"]],['__file',"src/App.vue"]])
+const __exports__ = /*#__PURE__*/E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2___default()(script, [['render',_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__["render"]],['__file',"src/App.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -400,9 +400,9 @@ if (false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!../node_modules/vue-style-loader??ref--11-oneOf-1-0!../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!../node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less */ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less");
-/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!../node_modules/vue-style-loader??ref--11-oneOf-1-0!../node_modules/css-loader/dist/cjs.js??ref--11-oneOf-1-1!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!../node_modules/postcss-loader/src??ref--11-oneOf-1-2!../node_modules/less-loader/dist/cjs.js??ref--11-oneOf-1-3!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less */ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/vue-style-loader/index.js?!./node_modules/css-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=less");
+/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_vue_style_loader_index_js_ref_11_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_11_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_11_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_style_index_0_id_7ba5bd90_lang_less__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 /* unplugin-vue-components disabled */
 
 /***/ }),
@@ -416,8 +416,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_cache_loader_dist_cjs_js_ref_13_0_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_v16_dist_templateLoader_js_ref_7_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!../node_modules/cache-loader/dist/cjs.js??ref--13-0!../node_modules/babel-loader/lib!../node_modules/vue-loader-v16/dist/templateLoader.js??ref--7!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=template&id=7ba5bd90 */ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader-v16/dist/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_cache_loader_dist_cjs_js_ref_13_0_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_v16_dist_templateLoader_js_ref_7_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_cache_loader_dist_cjs_js_ref_13_0_node_modules_babel_loader_lib_index_js_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_templateLoader_js_ref_7_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--41-0!../node_modules/unplugin/dist/webpack/loaders/transform.js??ref--42-0!../node_modules/cache-loader/dist/cjs.js??ref--13-0!../node_modules/babel-loader/lib!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--7!../node_modules/cache-loader/dist/cjs.js??ref--1-0!../node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./App.vue?vue&type=template&id=7ba5bd90 */ "./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/unplugin/dist/webpack/loaders/transform.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/babel-loader/lib/index.js!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_unplugin_dist_webpack_loaders_transform_js_ref_41_0_node_modules_unplugin_dist_webpack_loaders_transform_js_ref_42_0_node_modules_cache_loader_dist_cjs_js_ref_13_0_node_modules_babel_loader_lib_index_js_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_templateLoader_js_ref_7_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_App_vue_vue_type_template_id_7ba5bd90__WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* unplugin-vue-components disabled */
 
@@ -479,7 +479,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "indexOf", function() { return indexOf; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "qf", function() { return qf; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "qq", function() { return qq; });
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__);
 
@@ -493,7 +493,7 @@ var qq = ["美国Bi", "UK排行", "日本Or", "法国", "俄罗斯top", "云音�
 /* 榜单分类器 */
 
 function indexOf(item, arr) {
-  var _iterator = Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr),
+  var _iterator = Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr),
       _step;
 
   try {
@@ -523,14 +523,14 @@ function indexOf(item, arr) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.object.assign.js */ "./node_modules/core-js/modules/es.object.assign.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.object.assign.js */ "./node_modules/core-js/modules/es.object.assign.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
@@ -623,63 +623,63 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Main = function Main() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(14)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
 };
 
 var VideoDetail = function VideoDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
 };
 
 var Home = function Home() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(14), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
 };
 
 var Video = function Video() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(12), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(13), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
 };
 
 var Alone = function Alone() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(13), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(14), __webpack_require__.e(27)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
 };
 
 var Music = function Music() {
-  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
+  return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
 };
 
 var Playlist = function Playlist() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
 };
 
 var PlayListDetail = function PlayListDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
 };
 
 var RankList = function RankList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
 };
 
 var ArtistList = function ArtistList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
 };
 
 var ArtistDetail = function ArtistDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
 };
 
 var LatestMusic = function LatestMusic() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
 };
 
 var AlbumDetail = function AlbumDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
 };
 
 var SearchContent = function SearchContent() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
 };
 
 var routes = [{
-  path: '/' || false,
+  path: "/" || false,
   redirect: "/main/home"
 }, {
   path: "/main",
@@ -1249,14 +1249,13 @@ function getRankDetailList(id) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BASE_URL", function() { return BASE_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TIME_OUT", function() { return TIME_OUT; });
-var BASE_URL = '';
+var BASE_URL = "";
 var TIME_OUT = 10000;
 
 if (true) {
-  console.log('development'); //如果当前环境为开发环境
+  console.log("development"); //如果当前环境为开发环境
 
-  BASE_URL = 'https://cloud-music-api-psi.vercel.app';
-  console.log('BASE_URL:', BASE_URL);
+  BASE_URL = "/api";
 } else {}
 
 
@@ -1272,9 +1271,9 @@ if (true) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
@@ -1299,7 +1298,7 @@ var ZPRequest = /*#__PURE__*/function () {
         _this$interceptors4,
         _this = this;
 
-    Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ZPRequest);
+    Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ZPRequest);
 
     this.instance = axios__WEBPACK_IMPORTED_MODULE_4___default.a.create(config);
     this.interceptors = config.interceptors; //如果config.isLoading没有传值，则默认值为true
@@ -1326,7 +1325,7 @@ var ZPRequest = /*#__PURE__*/function () {
 
       Object(_loading__WEBPACK_IMPORTED_MODULE_5__["hideLoading"])(); //拦截错误信息
 
-      if (data.returnCode === "-1001") {
+      if (data.code == "-1001") {
         console.log("请求失败,错误信息");
       } else {
         return data;
@@ -1344,7 +1343,7 @@ var ZPRequest = /*#__PURE__*/function () {
   //设置instance的request请求方法，传入config参数
 
 
-  Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__["default"])(ZPRequest, [{
+  Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__["default"])(ZPRequest, [{
     key: "request",
     value: function request(config) {
       var _this2 = this;
@@ -1387,28 +1386,28 @@ var ZPRequest = /*#__PURE__*/function () {
   }, {
     key: "get",
     value: function get(config) {
-      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
+      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
         method: "GET"
       }));
     }
   }, {
     key: "post",
     value: function post(config) {
-      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
+      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
         method: "POST"
       }));
     }
   }, {
     key: "delete",
     value: function _delete(config) {
-      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
+      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
         method: "DELETE"
       }));
     }
   }, {
     key: "patch",
     value: function patch(config) {
-      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
+      return this.request(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config), {}, {
         method: "PATCH"
       }));
     }
@@ -1492,7 +1491,7 @@ var searchAPI;
 (function (searchAPI) {
   searchAPI["searchUrl"] = "/search/suggest";
   searchAPI["hotSearchUrl"] = "/search/hot/detail";
-  searchAPI["searchTypeUrl"] = "/search"; //各种类型数据
+  searchAPI["searchTypeUrl"] = "/search";
 })(searchAPI || (searchAPI = {}));
 /* 请求搜索数据 */
 
@@ -1605,7 +1604,7 @@ function getVideoAllList(offset) {
 
 function getVideoDetail(data) {
   /* 类型为video请求video */
-  if (data.type == 'video') {
+  if (data.type == "video") {
     return axios__WEBPACK_IMPORTED_MODULE_0___default.a.all([_index__WEBPACK_IMPORTED_MODULE_1__["default"].get({
       url: videoAPI.videoDetail,
       params: {
@@ -1671,7 +1670,7 @@ function getMvComment(params) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_allListDetail_listDetailAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/allListDetail/listDetailAPI */ "./src/servers/allListDetail/listDetailAPI.ts");
@@ -1742,7 +1741,7 @@ var listDetailModule = {
   actions: {
     /* 获取歌单详情接口数据 */
     getPlayListDetai: function getPlayListDetai(_ref, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$_getPlayListDe, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -1769,7 +1768,7 @@ var listDetailModule = {
 
     /* 获取歌单详情所有歌曲数据 */
     getListAllMusic: function getListAllMusic(_ref2, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var commit, _yield$_getListAllMus, res;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -1796,7 +1795,7 @@ var listDetailModule = {
 
     /* 获取歌单所有评论 */
     getListCommentUrl: function getListCommentUrl(_ref3, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
           while (1) {
@@ -1821,7 +1820,7 @@ var listDetailModule = {
 
     /* 歌手详情数据 */
     getArtistDetail: function getArtistDetail(_ref4, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
         var commit, _yield$_getArtistDeta, res;
 
         return regeneratorRuntime.wrap(function _callee4$(_context4) {
@@ -1848,7 +1847,7 @@ var listDetailModule = {
 
     /* 歌手50首数据 */
     getArtistAlbum: function getArtistAlbum(_ref5, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
         var commit, _yield$_getArtistAlbu, res;
 
         return regeneratorRuntime.wrap(function _callee5$(_context5) {
@@ -1875,7 +1874,7 @@ var listDetailModule = {
 
     /* 歌手Mv数据 */
     getArtistMv: function getArtistMv(_ref6, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
         var commit, _yield$_getArtistMv, res;
 
         return regeneratorRuntime.wrap(function _callee6$(_context6) {
@@ -1902,7 +1901,7 @@ var listDetailModule = {
 
     /* 歌手描述数据 */
     getArtistDesc: function getArtistDesc(_ref7, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {
         var commit, _yield$_getArtistDesc, res;
 
         return regeneratorRuntime.wrap(function _callee7$(_context7) {
@@ -1929,7 +1928,7 @@ var listDetailModule = {
 
     /* 专辑详情数据 */
     getAlbumDetail: function getAlbumDetail(_ref8, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee8() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee8() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee8$(_context8) {
           while (1) {
@@ -1954,7 +1953,7 @@ var listDetailModule = {
 
     /* 获取专辑所有评论 */
     getAlbumCmt: function getAlbumCmt(_ref9, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee9() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee9() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee9$(_context9) {
           while (1) {
@@ -1991,7 +1990,7 @@ var listDetailModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_artistList_artistListAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/artistList/artistListAPI */ "./src/servers/artistList/artistListAPI.ts");
@@ -2015,7 +2014,7 @@ var artistModule = {
   actions: {
     /* 获取歌手列表数据 */
     getArtistTag: function getArtistTag(_ref, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$_getArtistTag, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -2054,7 +2053,7 @@ var artistModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_home_homeAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/home/homeAPI */ "./src/servers/home/homeAPI.ts");
@@ -2108,7 +2107,7 @@ var homeModule = {
   actions: {
     /* 获取轮播图数据 */
     getSwiperList: function getSwiperList(_ref) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$getHomeSwiper, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -2136,7 +2135,7 @@ var homeModule = {
 
     /* 获取推荐歌单数据 */
     getCommendList: function getCommendList(_ref2) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var commit, _yield$getHomeCmddPla, res;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -2163,7 +2162,7 @@ var homeModule = {
 
     /* 获取独家放送数据 */
     getAloneList: function getAloneList(_ref3, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var commit, _yield$getAlonePlayLi, res;
 
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
@@ -2190,7 +2189,7 @@ var homeModule = {
 
     /* 获取最新音乐数据 */
     getnewMusicList: function getnewMusicList(_ref4) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
         var commit, _yield$_getnewMusicLi, res;
 
         return regeneratorRuntime.wrap(function _callee4$(_context4) {
@@ -2217,7 +2216,7 @@ var homeModule = {
 
     /* 获取推荐mv数据 */
     getCmdMvList: function getCmdMvList(_ref5) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
         var commit, _yield$_getCmdMvList, res;
 
         return regeneratorRuntime.wrap(function _callee5$(_context5) {
@@ -2244,7 +2243,7 @@ var homeModule = {
 
     /* 获取主播电台数据 */
     getDjprogramList: function getDjprogramList(_ref6) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
         var commit, _yield$_getDjprogramL, res;
 
         return regeneratorRuntime.wrap(function _callee6$(_context6) {
@@ -2347,7 +2346,7 @@ var store = Object(vuex__WEBPACK_IMPORTED_MODULE_0__["createStore"])({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_latestMusic_latestAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/latestMusic/latestAPI */ "./src/servers/latestMusic/latestAPI.ts");
@@ -2377,7 +2376,7 @@ var rankModule = {
   actions: {
     /* 获取新歌速递数据 */
     getNewMusicList: function getNewMusicList(_ref, type) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$_getNewMusicLi, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -2404,7 +2403,7 @@ var rankModule = {
 
     /* 获取新碟上架数据 */
     getNewDiscList: function getNewDiscList(_ref2, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var commit, _yield$_getNewDiscLis, res;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -2443,7 +2442,7 @@ var rankModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_login_loginAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/login/loginAPI */ "./src/servers/login/loginAPI.ts");
@@ -2456,7 +2455,7 @@ var rankModule = {
   namespaced: true,
   state: function state() {
     return {
-      userData: _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].getCache('userInfo') || {},
+      userData: _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].getCache("userInfo") || {},
       token: _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].getCache("token"),
       loginResErr: ""
     };
@@ -2467,16 +2466,16 @@ var rankModule = {
       state.userData = userData;
     },
     logoutDelData: function logoutDelData(state) {
-      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache('userInfo');
-      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache('token');
+      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache("userInfo");
+      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache("token");
       state.userData = {};
-      state.token = '';
+      state.token = "";
     }
   },
   actions: {
     /* 获取手机登录接口数据 */
     getPhone: function getPhone(_ref, login) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var state, commit, res;
         return regeneratorRuntime.wrap(function _callee$(_context) {
           while (1) {
@@ -2519,7 +2518,7 @@ var rankModule = {
 
     /* 获取登录状态 */
     getLoginStatus: function getLoginStatus(_ref2) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var state, commit, _yield$_getLoginStatu, res;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -2535,7 +2534,7 @@ var rankModule = {
                 res = _yield$_getLoginStatu.data;
 
                 if (res.code !== 200) {
-                  commit('logoutDelData'); //清空登录数据
+                  commit("logoutDelData"); //清空登录数据
                 }
 
               case 6:
@@ -2549,14 +2548,14 @@ var rankModule = {
 
     /* 退出登录 */
     getLogout: function getLogout(_ref3) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var state, commit;
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
                 state = _ref3.state, commit = _ref3.commit;
-                commit('logoutDelData');
+                commit("logoutDelData");
                 _context3.next = 4;
                 return Object(_servers_login_loginAPI__WEBPACK_IMPORTED_MODULE_2__["getLogout"])();
 
@@ -2583,7 +2582,7 @@ var rankModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_string_sub_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.sub.js */ "./node_modules/core-js/modules/es.string.sub.js");
@@ -2632,7 +2631,7 @@ var playModule = {
   actions: {
     /* 获取歌单标签分类数据 */
     getPlayListTag: function getPlayListTag(_ref) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$_getPlayListTa, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -2659,7 +2658,7 @@ var playModule = {
 
     /* 获取精品歌单数据 */
     getPlayList: function getPlayList(_ref2, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
@@ -2684,7 +2683,7 @@ var playModule = {
 
     /* 获取用户歌单数据 */
     getUserSheet: function getUserSheet(_ref3, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var commit, userInfo, _yield$_getUserSheet, res, create, collect;
 
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
@@ -2739,7 +2738,7 @@ var playModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_array_find_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.find-index.js */ "./node_modules/core-js/modules/es.array.find-index.js");
@@ -2878,7 +2877,7 @@ var ModulePlayer = {
   actions: {
     /** 根据id获取歌曲详情 */
     setCurrentSong: function setCurrentSong(context, id) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var _yield$getSongsDetail, songs, songList;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -2923,7 +2922,7 @@ var ModulePlayer = {
       }))();
     },
     setSongListByIds: function setSongListByIds(context, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var ids, currentId, songIdStr, _yield$getSongsDetail2, songs, songList, currentSong;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -2988,7 +2987,7 @@ var ModulePlayer = {
 
     /** 根据id获取歌单的歌曲详情 */
     setSongList: function setSongList(context, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var id, noSetCurrentSong, _yield$getPlayListDet, playlist, songIdStr, _yield$getSongsDetail3, songs, songList;
 
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
@@ -3056,7 +3055,7 @@ var ModulePlayer = {
 
     /** 清空播放列表 */
     setSongListByAlbumId: function setSongListByAlbumId(context, albumId) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
         var albumSongs, albumSongIds, currentId, songIdStr, _yield$getSongsDetail4, songs, songList, currentSong;
 
         return regeneratorRuntime.wrap(function _callee4$(_context4) {
@@ -3142,7 +3141,7 @@ var ModulePlayer = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
@@ -3186,7 +3185,7 @@ var rankModule = {
   actions: {
     /* 获取榜单基本数据 */
     getPlayListTag: function getPlayListTag(_ref) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$getRankList, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -3225,7 +3224,7 @@ var rankModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_search_searchAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/search/searchAPI */ "./src/servers/search/searchAPI.ts");
@@ -3259,7 +3258,7 @@ var searchModule = {
       for (var key in type) {
         state.searchTypeInfo[key] = type[key];
 
-        if (~key.indexOf('Count')) {
+        if (~key.indexOf("Count")) {
           state.searchTypeInfo.total = type[key];
         }
       }
@@ -3268,7 +3267,7 @@ var searchModule = {
   actions: {
     /* 获取搜索数据 */
     getSearchInfo: function getSearchInfo(_ref, keywords) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var state, commit, _yield$_getSearchInfo, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -3296,7 +3295,7 @@ var searchModule = {
 
     /* 获取热搜数据 */
     getHotSearch: function getHotSearch(_ref2) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var state, commit, _yield$_getHotSearch, res;
 
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
@@ -3323,7 +3322,7 @@ var searchModule = {
 
     /* 获取各种搜索类型数据 */
     getSearchType: function getSearchType(_ref3, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var state, commit, _yield$_getSearchType, res;
 
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
@@ -3363,9 +3362,9 @@ var searchModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
@@ -3411,7 +3410,7 @@ var videoModule = {
 
     /* push视频列表数据 */
     pushVideoList: function pushVideoList(state, videoList) {
-      state.videoList = [].concat(Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(state.videoList), Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(videoList));
+      state.videoList = [].concat(Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(state.videoList), Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(videoList));
     },
 
     /* 存储视频详情数据 */
@@ -3427,7 +3426,7 @@ var videoModule = {
   actions: {
     /* 获取视频标签分类数据 */
     getVideoTag: function getVideoTag(_ref) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
         var commit, _yield$_getVideoTag, res;
 
         return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -3454,7 +3453,7 @@ var videoModule = {
 
     /* 获取分类下视频列表数据 */
     getVideoList: function getVideoList(_ref2, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
         var state, commit, res, data;
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
@@ -3494,7 +3493,7 @@ var videoModule = {
 
     /* 获取基本分类数据 */
     getVideoTageR: function getVideoTageR(_ref3) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
         var commit, _yield$_getVideoTageR, res;
 
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
@@ -3521,7 +3520,7 @@ var videoModule = {
 
     /* 获取所有视频列表数据 */
     getVideoAllList: function getVideoAllList(_ref4, offset) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
         var state, commit, res, data;
         return regeneratorRuntime.wrap(function _callee4$(_context4) {
           while (1) {
@@ -3561,7 +3560,7 @@ var videoModule = {
 
     /* 获取视频/mv详情页面数据 */
     getVideoDetail: function getVideoDetail(_ref5, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
         var state, commit, _yield$_getVideoDetai, _yield$_getVideoDetai2, detail, player, related;
 
         return regeneratorRuntime.wrap(function _callee5$(_context5) {
@@ -3575,7 +3574,7 @@ var videoModule = {
 
               case 4:
                 _yield$_getVideoDetai = _context5.sent;
-                _yield$_getVideoDetai2 = Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_yield$_getVideoDetai, 3);
+                _yield$_getVideoDetai2 = Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_yield$_getVideoDetai, 3);
                 detail = _yield$_getVideoDetai2[0];
                 player = _yield$_getVideoDetai2[1];
                 related = _yield$_getVideoDetai2[2];
@@ -3596,7 +3595,7 @@ var videoModule = {
 
     /* 视频评论数据 */
     getVideoComment: function getVideoComment(_ref6, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee6$(_context6) {
           while (1) {
@@ -3621,7 +3620,7 @@ var videoModule = {
 
     /* mv评论数据 */
     getMvComment: function getMvComment(_ref7, payload) {
-      return Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {
+      return Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {
         var commit, res;
         return regeneratorRuntime.wrap(function _callee7$(_context7) {
           while (1) {
@@ -3658,8 +3657,8 @@ var videoModule = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_json_stringify_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.json.stringify.js */ "./node_modules/core-js/modules/es.json.stringify.js");
 /* harmony import */ var core_js_modules_es_json_stringify_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_json_stringify_js__WEBPACK_IMPORTED_MODULE_2__);
 
@@ -3669,10 +3668,10 @@ __webpack_require__.r(__webpack_exports__);
 /* 存储密码 */
 var LocalCache = /*#__PURE__*/function () {
   function LocalCache() {
-    Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, LocalCache);
+    Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, LocalCache);
   }
 
-  Object(E_Workspaces_VScode_vue3_TS_vue3_ts_cloudmusic_copy_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(LocalCache, [{
+  Object(E_Workspaces_VScode_vue3_TS_vue_cloudMusicProject_master_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(LocalCache, [{
     key: "setCache",
     value: //设置数据
     function setCache(key, value) {
@@ -3729,7 +3728,7 @@ __webpack_require__.r(__webpack_exports__);
 dayjs__WEBPACK_IMPORTED_MODULE_0___default.a.extend(dayjs_plugin_utc__WEBPACK_IMPORTED_MODULE_1___default.a);
 /* 添加全局过滤器 */
 
-var DATE_TIME_FORMAT = 'YYYY-MM-DD hh:mm:ss';
+var DATE_TIME_FORMAT = "YYYY-MM-DD hh:mm:ss";
 function registerProperties(app) {
   app.config.globalProperties.$filters = {
     formatTime: function formatTime(utcString) {
