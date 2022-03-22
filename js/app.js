@@ -1325,7 +1325,7 @@ var ZPRequest = /*#__PURE__*/function () {
 
       Object(_loading__WEBPACK_IMPORTED_MODULE_5__["hideLoading"])(); //拦截错误信息
 
-      if (data.code == "-1001") {
+      if (data.returnCode === "-1001") {
         console.log("请求失败,错误信息");
       } else {
         return data;
