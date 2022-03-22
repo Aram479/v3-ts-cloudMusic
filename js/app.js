@@ -1250,14 +1250,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BASE_URL", function() { return BASE_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TIME_OUT", function() { return TIME_OUT; });
 var BASE_URL = "";
-var TIME_OUT = 10000;
+var TIME_OUT = 10000; // if (process.env.NODE_ENV === "development") {
+//   console.log("development");
+//   //如果当前环境为开发环境
+//   BASE_URL = "/api";
+// } else if (process.env.NODE_ENV === "production") {
+//   console.log("production");
+//   //如果当前环境为生产环境
+//   BASE_URL = "https://cloud-music-api-psi.vercel.app";
+// } else {
+//   //如果都不是两者
+//   BASE_URL = "http://coderwhy.org/test";
+// }
 
-if (true) {
-  console.log("development"); //如果当前环境为开发环境
-
-  BASE_URL = "/api";
-} else {}
-
+BASE_URL = "https://cloud-music-api-psi.vercel.app";
 
 
 /***/ }),
