@@ -1330,12 +1330,13 @@ var ZPRequest = /*#__PURE__*/function () {
       var data = res.data; //当响应成功时停止loading组件
 
       Object(_loading__WEBPACK_IMPORTED_MODULE_5__["hideLoading"])(); //拦截错误信息
+      // if (data.returnCode === "-1001") {
+      //   console.log("请求失败,错误信息");
+      // } else {
+      // }
 
-      if (data.returnCode === "-1001") {
-        console.log("请求失败,错误信息");
-      } else {
-        return data;
-      }
+      console.log(data);
+      return data;
     }, function (err) {
       //拦截错误类型，输出对应错误信息
       if (err.response.status === 404) {
