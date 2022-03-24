@@ -685,9 +685,10 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_23 = ["innerHTML"];
+var _hoisted_23 = ["onClick"];
+var _hoisted_24 = ["innerHTML"];
 
-var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", {
     class: "line"
   }, "-", -1
@@ -695,7 +696,7 @@ var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", {
     class: "slash"
   }, "/", -1
@@ -703,12 +704,12 @@ var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_26 = {
+var _hoisted_27 = {
   key: 1,
   class: "search-songer"
 };
 
-var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("div", {
     class: "type-title"
   }, [/*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("i", {
@@ -718,14 +719,14 @@ var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_28 = ["onClick"];
-var _hoisted_29 = ["innerHTML"];
-var _hoisted_30 = {
+var _hoisted_29 = ["onClick"];
+var _hoisted_30 = ["innerHTML"];
+var _hoisted_31 = {
   key: 2,
   class: "search-album"
 };
 
-var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_32 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("div", {
     class: "type-title"
   }, [/*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("i", {
@@ -735,10 +736,10 @@ var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_32 = ["onClick"];
-var _hoisted_33 = ["innerHTML"];
+var _hoisted_33 = ["onClick"];
+var _hoisted_34 = ["innerHTML"];
 
-var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_35 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", {
     class: "line"
   }, "-", -1
@@ -746,12 +747,12 @@ var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_35 = {
+var _hoisted_36 = {
   key: 3,
   class: "search-sheet"
 };
 
-var _hoisted_36 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_37 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("div", {
     class: "type-title"
   }, [/*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("i", {
@@ -761,8 +762,8 @@ var _hoisted_36 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_37 = ["onClick"];
-var _hoisted_38 = ["innerHTML"];
+var _hoisted_38 = ["onClick"];
+var _hoisted_39 = ["innerHTML"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_el_tooltip = element_plus_es__WEBPACK_IMPORTED_MODULE_0__["ElTooltip"];
 
@@ -905,25 +906,30 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               ), _hoisted_18]), _hoisted_19]), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 搜索类型 "), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("div", _hoisted_20, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 单曲 "), (_ctx$searchInfo = _ctx.searchInfo) !== null && _ctx$searchInfo !== void 0 && _ctx$searchInfo.songs ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_21, [_hoisted_22, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 单曲item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo2 = _ctx.searchInfo) === null || _ctx$searchInfo2 === void 0 ? void 0 : _ctx$searchInfo2.songs, function (song) {
                 return Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", {
                   class: "item music-item linelittle",
-                  key: song.id
+                  key: song.id,
+                  onClick: function onClick($event) {
+                    return _ctx.playerClick(song.id);
+                  }
                 }, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 单曲名 "), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", {
                   class: "music-name",
                   innerHTML: _ctx.lightKeyword(song.name, _ctx.iptValue)
                 }, null, 8
                 /* PROPS */
-                , _hoisted_23), _hoisted_24, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])(song.artists, function (songer) {
+                , _hoisted_24), _hoisted_25, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])(song.artists, function (songer) {
                   return Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("span", {
                     class: "music-songers",
                     key: songer.id
                   }, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["toDisplayString"])(songer.name), 1
                   /* TEXT */
-                  ), _hoisted_25]);
+                  ), _hoisted_26]);
                 }), 128
                 /* KEYED_FRAGMENT */
-                ))]);
+                ))], 8
+                /* PROPS */
+                , _hoisted_23);
               }), 128
               /* KEYED_FRAGMENT */
-              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), (_ctx$searchInfo3 = _ctx.searchInfo) !== null && _ctx$searchInfo3 !== void 0 && _ctx$searchInfo3.artists ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_26, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_27, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo4 = _ctx.searchInfo) === null || _ctx$searchInfo4 === void 0 ? void 0 : _ctx$searchInfo4.artists, function (artist) {
+              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), (_ctx$searchInfo3 = _ctx.searchInfo) !== null && _ctx$searchInfo3 !== void 0 && _ctx$searchInfo3.artists ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_27, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_28, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo4 = _ctx.searchInfo) === null || _ctx$searchInfo4 === void 0 ? void 0 : _ctx$searchInfo4.artists, function (artist) {
                 return Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", {
                   class: "item artists-item linelittle",
                   key: artist.id,
@@ -935,12 +941,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   innerHTML: _ctx.lightKeyword(artist.name, _ctx.iptValue)
                 }, null, 8
                 /* PROPS */
-                , _hoisted_29)], 8
+                , _hoisted_30)], 8
                 /* PROPS */
-                , _hoisted_28);
+                , _hoisted_29);
               }), 128
               /* KEYED_FRAGMENT */
-              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 专辑 "), (_ctx$searchInfo5 = _ctx.searchInfo) !== null && _ctx$searchInfo5 !== void 0 && _ctx$searchInfo5.albums ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_30, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_31, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 专辑item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo6 = _ctx.searchInfo) === null || _ctx$searchInfo6 === void 0 ? void 0 : _ctx$searchInfo6.albums, function (album) {
+              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 专辑 "), (_ctx$searchInfo5 = _ctx.searchInfo) !== null && _ctx$searchInfo5 !== void 0 && _ctx$searchInfo5.albums ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_31, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_32, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 专辑item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo6 = _ctx.searchInfo) === null || _ctx$searchInfo6 === void 0 ? void 0 : _ctx$searchInfo6.albums, function (album) {
                 return Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", {
                   class: "item music-item linelittle",
                   key: album.id,
@@ -952,14 +958,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   innerHTML: _ctx.lightKeyword(album.name, _ctx.iptValue)
                 }, null, 8
                 /* PROPS */
-                , _hoisted_33), _hoisted_34, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["toDisplayString"])(album.artist.name), 1
+                , _hoisted_34), _hoisted_35, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌手 "), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementVNode"])("span", null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["toDisplayString"])(album.artist.name), 1
                 /* TEXT */
                 )], 8
                 /* PROPS */
-                , _hoisted_32);
+                , _hoisted_33);
               }), 128
               /* KEYED_FRAGMENT */
-              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌单 "), (_ctx$searchInfo7 = _ctx.searchInfo) !== null && _ctx$searchInfo7 !== void 0 && _ctx$searchInfo7.playlists ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_35, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_36, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌单item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo8 = _ctx.searchInfo) === null || _ctx$searchInfo8 === void 0 ? void 0 : _ctx$searchInfo8.playlists, function (sheet) {
+              ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌单 "), (_ctx$searchInfo7 = _ctx.searchInfo) !== null && _ctx$searchInfo7 !== void 0 && _ctx$searchInfo7.playlists ? (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", _hoisted_36, [Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 标题 "), _hoisted_37, Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])(" 歌单item "), (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])(vue__WEBPACK_IMPORTED_MODULE_7__["Fragment"], null, Object(vue__WEBPACK_IMPORTED_MODULE_7__["renderList"])((_ctx$searchInfo8 = _ctx.searchInfo) === null || _ctx$searchInfo8 === void 0 ? void 0 : _ctx$searchInfo8.playlists, function (sheet) {
                 return Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createElementBlock"])("div", {
                   class: "item music-item linelittle",
                   key: sheet.id,
@@ -971,9 +977,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   innerHTML: _ctx.lightKeyword(sheet.name, _ctx.iptValue)
                 }, null, 8
                 /* PROPS */
-                , _hoisted_38)], 8
+                , _hoisted_39)], 8
                 /* PROPS */
-                , _hoisted_37);
+                , _hoisted_38);
               }), 128
               /* KEYED_FRAGMENT */
               ))])) : Object(vue__WEBPACK_IMPORTED_MODULE_7__["createCommentVNode"])("v-if", true)])])) : (Object(vue__WEBPACK_IMPORTED_MODULE_7__["openBlock"])(), Object(vue__WEBPACK_IMPORTED_MODULE_7__["createBlock"])(_component_Loading, {
@@ -1177,6 +1183,12 @@ __webpack_require__.r(__webpack_exports__);
       iptValue.value = value;
       store.dispatch("Search/getSearchInfo", value);
     };
+    /* 单曲点击事件 */
+
+
+    var playerClick = function playerClick(id) {
+      store.dispatch("player/setCurrentSong", id);
+    };
     /* 歌手点击事件 */
 
 
@@ -1227,6 +1239,7 @@ __webpack_require__.r(__webpack_exports__);
       lightKeyword: lightKeyword,
       hotClick: hotClick,
       resultClick: resultClick,
+      playerClick: playerClick,
       songerClick: songerClick,
       albumClick: albumClick,
       sheetClick: sheetClick,

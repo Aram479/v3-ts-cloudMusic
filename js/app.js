@@ -574,7 +574,8 @@ __webpack_require__.r(__webpack_exports__);
 
  //安装并使用tailwind.css
 
-var app = Object(vue__WEBPACK_IMPORTED_MODULE_8__["createApp"])(_App_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
+var app = Object(vue__WEBPACK_IMPORTED_MODULE_8__["createApp"])(_App_vue__WEBPACK_IMPORTED_MODULE_10__["default"]); // app.config.globalProperties.PubSub = PubSub
+
 /* 注册全部icon */
 
 Object.keys(_element_plus_icons_vue__WEBPACK_IMPORTED_MODULE_14__).forEach(function (key) {
@@ -623,59 +624,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Main = function Main() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(11), __webpack_require__.e(14)]).then(__webpack_require__.bind(null, /*! @/views/Main.vue */ "./src/views/Main.vue"));
 };
 
 var VideoDetail = function VideoDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(6), __webpack_require__.e(11), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/videoDetail/VideoDetail.vue */ "./src/views/videoDetail/VideoDetail.vue"));
 };
 
 var Home = function Home() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(14), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @/views/home/Home.vue */ "./src/views/home/Home.vue"));
 };
 
 var Video = function Video() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(13), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(8), __webpack_require__.e(12), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/video/Video.vue */ "./src/views/video/Video.vue"));
 };
 
 var Alone = function Alone() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(14), __webpack_require__.e(27)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(13), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/alone/Alone.vue */ "./src/views/alone/Alone.vue"));
 };
 
 var Music = function Music() {
-  return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
+  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! @/views/music/Music.vue */ "./src/views/music/Music.vue"));
 };
 
 var Playlist = function Playlist() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(13), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/playlist/Playlist.vue */ "./src/views/playlist/Playlist.vue"));
 };
 
 var PlayListDetail = function PlayListDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(25)]).then(__webpack_require__.bind(null, /*! @/views/playListDetail/PlayListDetail.vue */ "./src/views/playListDetail/PlayListDetail.vue"));
 };
 
 var RankList = function RankList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(12), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(4), __webpack_require__.e(9), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! @/views/rankList/RankList.vue */ "./src/views/rankList/RankList.vue"));
 };
 
 var ArtistList = function ArtistList() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(3), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/artistList/ArtistList.vue */ "./src/views/artistList/ArtistList.vue"));
 };
 
 var ArtistDetail = function ArtistDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(4), __webpack_require__.e(7), __webpack_require__.e(8), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @/views/artistDetail/ArtistDetail.vue */ "./src/views/artistDetail/ArtistDetail.vue"));
 };
 
 var LatestMusic = function LatestMusic() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @/views/latestMusic/LatestMusic.vue */ "./src/views/latestMusic/LatestMusic.vue"));
 };
 
 var AlbumDetail = function AlbumDetail() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(24)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(5), __webpack_require__.e(7), __webpack_require__.e(6), __webpack_require__.e(10), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @/views/albumDetail/AlbumDetail.vue */ "./src/views/albumDetail/AlbumDetail.vue"));
 };
 
 var SearchContent = function SearchContent() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3), __webpack_require__.e(4), __webpack_require__.e(5), __webpack_require__.e(8), __webpack_require__.e(10), __webpack_require__.e(17)]).then(__webpack_require__.bind(null, /*! @/views/searchContent/SearchContent.vue */ "./src/views/searchContent/SearchContent.vue"));
 };
 
 var routes = [{
@@ -1031,6 +1032,7 @@ __webpack_require__.r(__webpack_exports__);
 var zpRequest = new _request_https__WEBPACK_IMPORTED_MODULE_0__["default"]({
   baseURL: _request_config__WEBPACK_IMPORTED_MODULE_1__["BASE_URL"],
   timeout: _request_config__WEBPACK_IMPORTED_MODULE_1__["TIME_OUT"],
+  withCredentials: true,
   interceptors: {
     requestInterceptor: function requestInterceptor(config) {
       return config;
@@ -1096,12 +1098,14 @@ function getNewDiscList(params) {
 /*!***************************************!*\
   !*** ./src/servers/login/loginAPI.ts ***!
   \***************************************/
-/*! exports provided: getPhone, getLoginStatus, getRefreshLogin, getLogout */
+/*! exports provided: getPhone, getSentCode, getYzCode, getLoginStatus, getRefreshLogin, getLogout */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPhone", function() { return getPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getSentCode", function() { return getSentCode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getYzCode", function() { return getYzCode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLoginStatus", function() { return getLoginStatus; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRefreshLogin", function() { return getRefreshLogin; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLogout", function() { return getLogout; });
@@ -1111,6 +1115,8 @@ var loginAPI;
 
 (function (loginAPI) {
   loginAPI["phoneUrl"] = "/login/cellphone";
+  loginAPI["stCodeUrl"] = "/captcha/sent";
+  loginAPI["yzCodeUrl"] = "/captcha/verify";
   loginAPI["loginStatusUrl"] = "/login/status";
   loginAPI["refreshLoginUrl"] = "/login/refresh";
   loginAPI["logoutUrl"] = "/logout";
@@ -1119,9 +1125,30 @@ var loginAPI;
 
 
 function getPhone(params) {
-  return _index__WEBPACK_IMPORTED_MODULE_0__["default"].get({
+  return _index__WEBPACK_IMPORTED_MODULE_0__["default"].post({
     url: loginAPI.phoneUrl,
     params: params
+  });
+}
+/* 发送验证码 */
+
+function getSentCode(phone) {
+  return _index__WEBPACK_IMPORTED_MODULE_0__["default"].post({
+    url: loginAPI.stCodeUrl,
+    params: {
+      phone: phone
+    }
+  });
+}
+/* 验证验证码 */
+
+function getYzCode(phone, captcha) {
+  return _index__WEBPACK_IMPORTED_MODULE_0__["default"].post({
+    url: loginAPI.yzCodeUrl,
+    params: {
+      phone: phone,
+      captcha: captcha
+    }
   });
 }
 /* 登录状态 */
@@ -1263,6 +1290,7 @@ var TIME_OUT = 10000; // if (process.env.NODE_ENV === "development") {
 //   BASE_URL = "http://coderwhy.org/test";
 // }
 
+console.log("production");
 BASE_URL = "https://cloud-music-api-psi.vercel.app";
 
 
@@ -1330,13 +1358,12 @@ var ZPRequest = /*#__PURE__*/function () {
       var data = res.data; //当响应成功时停止loading组件
 
       Object(_loading__WEBPACK_IMPORTED_MODULE_5__["hideLoading"])(); //拦截错误信息
-      // if (data.returnCode === "-1001") {
-      //   console.log("请求失败,错误信息");
-      // } else {
-      // }
 
-      console.log(data);
-      return data;
+      if (data.code === "-1001") {
+        console.log("请求失败,错误信息");
+      } else {
+        return data;
+      }
     }, function (err) {
       //拦截错误类型，输出对应错误信息
       if (err.response.status === 404) {
@@ -2318,7 +2345,7 @@ var dataSet = Object(vuex_persistedstate__WEBPACK_IMPORTED_MODULE_1__["default"]
   /** 被持久化的状态格式为：模块名.状态名 */
   paths: [
   /** 播放器 */
-  "player.isPause", "player.playBackType", "player.playBackTypeList", "player.volume", "player.currentSong", "player.currentDuration", "player.currentTime", "player.songList", "player.isShowSongDetail", "PlayList.userSheet"]
+  "player.isPause", "player.playBackType", "player.playBackTypeList", "player.volume", "player.currentSong", "player.currentDuration", "player.currentTime", "player.songList", "player.isShowSongDetail"]
 });
 var store = Object(vuex__WEBPACK_IMPORTED_MODULE_0__["createStore"])({
   state: function state() {
@@ -2453,18 +2480,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _servers_login_loginAPI__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/servers/login/loginAPI */ "./src/servers/login/loginAPI.ts");
-/* harmony import */ var _utils_cache__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/utils/cache */ "./src/utils/cache.ts");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _utils_cache__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/utils/cache */ "./src/utils/cache.ts");
 
 
 
 
+
+var router = Object(vue_router__WEBPACK_IMPORTED_MODULE_3__["useRouter"])();
 var rankModule = {
   namespaced: true,
   state: function state() {
     return {
-      userData: _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].getCache("userInfo") || {},
-      token: _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].getCache("token"),
-      loginResErr: ""
+      userData: _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].getCache("userInfo") || {},
+      token: _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].getCache("token") || ''
     };
   },
   getters: {},
@@ -2473,8 +2502,9 @@ var rankModule = {
       state.userData = userData;
     },
     logoutDelData: function logoutDelData(state) {
-      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache("userInfo");
-      _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].delCache("token");
+      _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].delCache("userInfo");
+      _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].delCache("userSheet");
+      _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].delCache("token");
       state.userData = {};
       state.token = "";
     }
@@ -2489,37 +2519,27 @@ var rankModule = {
             switch (_context.prev = _context.next) {
               case 0:
                 state = _ref.state, commit = _ref.commit;
-                _context.prev = 1;
-                _context.next = 4;
+                _context.next = 3;
                 return Object(_servers_login_loginAPI__WEBPACK_IMPORTED_MODULE_2__["getPhone"])(login);
 
-              case 4:
+              case 3:
                 res = _context.sent;
 
                 //状态码为200则登陆成功
-                if (res.code == 200) {
-                  _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].setCache("token", res.token);
-                  _utils_cache__WEBPACK_IMPORTED_MODULE_3__["default"].setCache("userInfo", res.profile);
+                if (res && res.code == 200) {
+                  _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].setCache("token", res.token);
+                  _utils_cache__WEBPACK_IMPORTED_MODULE_4__["default"].setCache("userInfo", res.profile);
                   commit("setUserData", res.profile);
                 }
 
-                _context.next = 11;
-                break;
-
-              case 8:
-                _context.prev = 8;
-                _context.t0 = _context["catch"](1);
-                state.loginResErr = "错误次数过多,请稍后再试！";
-
-              case 11:
                 return _context.abrupt("return", Object(_servers_login_loginAPI__WEBPACK_IMPORTED_MODULE_2__["getPhone"])(login));
 
-              case 12:
+              case 6:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[1, 8]]);
+        }, _callee);
       }))();
     },
 
@@ -2613,7 +2633,7 @@ var playModule = {
     return {
       tagList: [],
       playList: [],
-      userSheet: [],
+      userSheet: _utils_cache__WEBPACK_IMPORTED_MODULE_6__["default"].getCache("userSheet") || [],
       total: 0
     };
   },
@@ -2699,16 +2719,10 @@ var playModule = {
               case 0:
                 commit = _ref3.commit;
                 userInfo = _utils_cache__WEBPACK_IMPORTED_MODULE_6__["default"].getCache("userInfo");
-
-                if (!userInfo) {
-                  _context3.next = 10;
-                  break;
-                }
-
-                _context3.next = 5;
+                _context3.next = 4;
                 return Object(_servers_playList_playListAPI__WEBPACK_IMPORTED_MODULE_5__["getUserSheet"])(payload);
 
-              case 5:
+              case 4:
                 _yield$_getUserSheet = _context3.sent;
                 res = _yield$_getUserSheet.playlist;
                 create = res.filter(function (item) {
@@ -2716,6 +2730,10 @@ var playModule = {
                 });
                 collect = res.filter(function (item) {
                   return item.userId !== userInfo.userId;
+                });
+                _utils_cache__WEBPACK_IMPORTED_MODULE_6__["default"].setCache("userSheet", {
+                  create: create,
+                  collect: collect
                 });
                 commit("setUserSheet", {
                   create: create,
