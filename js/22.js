@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.err-msg[data-v-85e8cbc6] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 280px;\n  text-align: center;\n  font-size: 14px;\n}\n", ""]);
+exports.push([module.i, "\n#Video[data-v-85e8cbc6] {\n  position: relative;\n}\n.err-msg[data-v-85e8cbc6] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 280px;\n  text-align: center;\n  font-size: 14px;\n}\n\n", ""]);
 // Exports
 module.exports = exports;
 

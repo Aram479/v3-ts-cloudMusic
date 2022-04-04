@@ -42,7 +42,7 @@ $({ target: 'Array', proto: true, forced: ES3_STRINGS || !STRICT_METHOD }, {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.el-carousel-item[data-v-305ec35e] {\n  position: relative;\n  overflow: hidden;\n}\n.el-image[data-v-305ec35e] {\n  border-radius: 5px;\n}\n.text[data-v-305ec35e] {\n  position: absolute;\n  bottom: 8px;\n  right: 0;\n  width: 80px;\n  font-weight: bold;\n  text-align: center;\n  padding: 2px;\n  font-size: 14px;\n  color: white;\n  background-color: #df0000d3;\n  border-radius: 5px 0px;\n  z-index: 20;\n}\n", ""]);
+exports.push([module.i, "\n.el-carousel-item[data-v-305ec35e] {\n  position: relative;\n  overflow: hidden;\n}\n.el-image[data-v-305ec35e] {\n  border-radius: 5px;\n}\n.img-box[data-v-305ec35e] {\n  display: inline-flex;\n  position: relative;\n}\n.text[data-v-305ec35e] {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  width: 80px;\n  font-weight: bold;\n  text-align: center;\n  padding: 2px;\n  font-size: 14px;\n  color: white;\n  background-color: #df0000d3;\n  border-radius: 5px 0px;\n  z-index: 20;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -249,6 +249,9 @@ var _hoisted_1 = {
   id: "swiper"
 };
 var _hoisted_2 = {
+  class: "img-box"
+};
+var _hoisted_3 = {
   class: "text"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -273,14 +276,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }
         }, {
           default: Object(vue__WEBPACK_IMPORTED_MODULE_4__["withCtx"])(function () {
-            return [Object(vue__WEBPACK_IMPORTED_MODULE_4__["createElementVNode"])("div", _hoisted_2, Object(vue__WEBPACK_IMPORTED_MODULE_4__["toDisplayString"])(item.typeTitle), 1
+            return [Object(vue__WEBPACK_IMPORTED_MODULE_4__["createElementVNode"])("div", _hoisted_2, [Object(vue__WEBPACK_IMPORTED_MODULE_4__["createElementVNode"])("div", _hoisted_3, Object(vue__WEBPACK_IMPORTED_MODULE_4__["toDisplayString"])(item.typeTitle), 1
             /* TEXT */
             ), Object(vue__WEBPACK_IMPORTED_MODULE_4__["createVNode"])(_component_el_image, {
               class: "swiper-img",
               src: item.imageUrl
             }, null, 8
             /* PROPS */
-            , ["src"])];
+            , ["src"])])];
           }),
           _: 2
           /* DYNAMIC */

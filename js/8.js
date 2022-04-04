@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "#videoList[data-v-81f38bac] {\n  padding: 0;\n}\n.alonePlay-playlist[data-v-81f38bac] {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n}\n.alone-play-item[data-v-81f38bac] {\n  position: relative;\n  margin-bottom: 25px;\n  cursor: pointer;\n  width: 23%;\n  margin-left: 15px;\n  overflow: hidden;\n}\n.alone-play-item > .el-image[data-v-81f38bac],\n.alone-play-item img[data-v-81f38bac] {\n  width: 100%;\n  height: 135px;\n  border-radius: 5px;\n}\n.paylist-item-title[data-v-81f38bac] {\n  font-size: 13px;\n  margin: 3px 0px;\n}\n.active:hover > .paylist-item-title[data-v-81f38bac] {\n  text-decoration: underline;\n  color: red;\n}\n.alonePlayCount[data-v-81f38bac] {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n}\n.alonePlayCount .icon-play1[data-v-81f38bac] {\n  font-size: 25px;\n  color: red;\n}\n.blod[data-v-81f38bac] {\n  font-weight: bold;\n}\n.songe[data-v-81f38bac] {\n  font-size: 13px;\n  color: #666;\n}\n.animatIcon[data-v-81f38bac] {\n  top: -35px;\n  left: 13px;\n  position: absolute;\n  transition: all 0.5s ease;\n  opacity: 0;\n}\n.alone-play-item:hover .animatIcon[data-v-81f38bac] {\n  transform: translateY(45px);\n  opacity: 1;\n}\n.icon-play[data-v-81f38bac] {\n  font-size: 30px !important;\n  color: #fff;\n}\n.loading-title[data-v-81f38bac] {\n  width: 100%;\n  text-align: center;\n  margin-bottom: 20px;\n}\n", ""]);
+exports.push([module.i, "#videoList[data-v-81f38bac] {\n  padding: 0;\n}\n.alonePlay-playlist[data-v-81f38bac] {\n  position: relative;\n  display: inline-flex;\n  flex-wrap: wrap;\n}\n.alone-play-item[data-v-81f38bac] {\n  position: relative;\n  margin-bottom: 25px;\n  cursor: pointer;\n  width: 23%;\n  margin-left: 15px;\n  overflow: hidden;\n}\n.alone-play-item > .el-image[data-v-81f38bac],\n.alone-play-item img[data-v-81f38bac] {\n  width: 100%;\n  height: 135px;\n  border-radius: 5px;\n}\n.paylist-item-title[data-v-81f38bac] {\n  font-size: 13px;\n  margin: 3px 0px;\n}\n.active:hover > .paylist-item-title[data-v-81f38bac] {\n  text-decoration: underline;\n  color: red;\n}\n.alonePlayCount[data-v-81f38bac] {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n}\n.alonePlayCount .icon-play1[data-v-81f38bac] {\n  font-size: 25px;\n  color: red;\n}\n.blod[data-v-81f38bac] {\n  font-weight: bold;\n}\n.songe[data-v-81f38bac] {\n  font-size: 13px;\n  color: #666;\n}\n.animatIcon[data-v-81f38bac] {\n  top: -35px;\n  left: 13px;\n  position: absolute;\n  transition: all 0.5s ease;\n  opacity: 0;\n}\n.alone-play-item:hover .animatIcon[data-v-81f38bac] {\n  transform: translateY(45px);\n  opacity: 1;\n}\n.icon-play[data-v-81f38bac] {\n  font-size: 30px !important;\n  color: #fff;\n}\n.loading-title[data-v-81f38bac] {\n  width: 100%;\n  text-align: center;\n  margin-bottom: 20px;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -150,7 +150,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     style: Object(vue__WEBPACK_IMPORTED_MODULE_4__["normalizeStyle"])([{
       "overflow": "auto"
     }, {
-      width: _ctx.isScroll ? '1080px' : '100%',
+      width: '100%',
       height: _ctx.isScroll ? '480px' : '100%'
     }]),
     "infinite-scroll-distance": 200,

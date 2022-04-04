@@ -680,7 +680,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n#Main[data-v-c1f1971a] {\n  position: relative;\n  top: 30px;\n  left: 60px;\n  overflow: hidden;\n  min-width: 1200px;\n  width: calc(100vw - 120px);\n  min-height: 600px;\n  height: calc(100vh - 60px);\n  box-sizing: border-box;\n  border: 1px solid rgba(201, 201, 201, 0.6);\n  border-radius: 8px;\n  box-shadow: 20px 0 20px 2px #e6e6e6, -20px 0 20px 2px #e6e6e6,\n    0 20px 20px 2px #e6e6e6;\n}\n.el-header[data-v-c1f1971a] {\n  padding: 0;\n  margin: 0;\n  height: 50px;\n}\n.nav-center[data-v-c1f1971a] {\n  display: block;\n}\n.el-aside[data-v-c1f1971a] {\n  background-color: #ededed;\n  width: 100%;\n  height: 550px;\n}\n.el-main[data-v-c1f1971a] {\n  padding: 0px 70px;\n  padding-bottom: 70px;\n  padding-top: 25px;\n}\n.footer[data-v-c1f1971a] {\n  width: 100%;\n  height: 50px;\n}\n.wzp-enter-active[data-v-c1f1971a] {\n  -webkit-animation: wzp-in-c1f1971a 0.5s ease-out;\n          animation: wzp-in-c1f1971a 0.5s ease-out;\n}\n@-webkit-keyframes wzp-in-c1f1971a {\n0% {\n    transform: translateX(-50px);\n    opacity: 0;\n}\n100% {\n    transform: translateX(0px);\n    opacity: 1;\n}\n}\n@keyframes wzp-in-c1f1971a {\n0% {\n    transform: translateX(-50px);\n    opacity: 0;\n}\n100% {\n    transform: translateX(0px);\n    opacity: 1;\n}\n}\n", ""]);
+exports.push([module.i, "\n#Main[data-v-c1f1971a] {\n  position: relative;\n  top: 30px;\n  left: 60px;\n  overflow: hidden;\n  min-width: 1200px;\n  /* 原先大概 width: calc(100vw - 220px) */\n  width: calc(100vw - 320px);\n  min-height: 600px;\n  height: calc(100vh - 60px);\n  box-sizing: border-box;\n  border: 1px solid rgba(201, 201, 201, 0.6);\n  border-radius: 8px;\n  box-shadow: 20px 0 20px 2px #e6e6e6, -20px 0 20px 2px #e6e6e6,\n    0 20px 20px 2px #e6e6e6;\n}\n.el-header[data-v-c1f1971a] {\n  padding: 0;\n  margin: 0;\n  height: 50px;\n}\n.nav-center[data-v-c1f1971a] {\n  display: block;\n}\n.el-aside[data-v-c1f1971a] {\n  background-color: #ededed;\n  width: 100%;\n  height: 550px;\n}\n.el-main[data-v-c1f1971a] {\n  padding: 0px 70px;\n  padding-bottom: 70px;\n  padding-top: 25px;\n}\n.footer[data-v-c1f1971a] {\n  width: 100%;\n  height: 50px;\n}\n.wzp-enter-active[data-v-c1f1971a] {\n  -webkit-animation: wzp-in-c1f1971a 0.5s ease-out;\n          animation: wzp-in-c1f1971a 0.5s ease-out;\n}\n@-webkit-keyframes wzp-in-c1f1971a {\n0% {\n    transform: translateX(-50px);\n    opacity: 0;\n}\n100% {\n    transform: translateX(0px);\n    opacity: 1;\n}\n}\n@keyframes wzp-in-c1f1971a {\n0% {\n    transform: translateX(-50px);\n    opacity: 0;\n}\n100% {\n    transform: translateX(0px);\n    opacity: 1;\n}\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4158,7 +4158,7 @@ __webpack_require__.r(__webpack_exports__);
                   if (res.code == 200) {
                     isDialog.value = false; //关闭对话框
 
-                    location.reload();
+                    location.reload(); //刷新当前页面
                   } else {
                     errMsg.value = res.message || "手机号或密码错误"; //错误提示信息
                   }
