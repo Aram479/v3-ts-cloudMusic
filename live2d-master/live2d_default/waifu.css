@@ -1,61 +1,60 @@
+#waifu-toggle {
+	background-color: #fa0;
+	border-radius: 5px;
+	bottom: 66px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	right: 0;
+	margin-right: -100px;
+	padding: 5px 2px 5px 5px;
+	position: fixed;
+	transition: margin-right 1s;
+	width: 60px;
+	writing-mode: vertical-lr;
+}
+#waifu-toggle.waifu-toggle-active {
+	margin-right: -50px;
+}
+
+#waifu-toggle.waifu-toggle-active:hover {
+	margin-right: -30px;
+}
+
 #waifu {
 	bottom: -1000px;
-	left: 10px;
+	right: 30px;
+	line-height: 0;
+	margin-bottom: -10px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
-	z-index: 30;
+	z-index: 200;
 }
 
 #waifu:hover {
-	-webkit-transform: translateY(0);
-	transform: translateY(0)
-}
-
-@media(max-width:860px) {
-	#waifu {
-		transform: scale(.8) translate(-30px, 37px)
-	}
-
-	#waifu:hover {
-		-webkit-transform: scale(.8) translate(-30px, 37px);
-		transform: scale(.8) translate(-30px, 37px)
-	}
-}
-
-@media(max-width:560px) {
-	#waifu {
-		transform: scale(.5) translate(-150px, 150px)
-	}
-
-	#waifu:hover {
-		-webkit-transform: scale(.5) translate(-150px, 150px);
-		transform: scale(.5) translate(-150px, 150px)
-	}
+	transform: translateY(0);
 }
 
 #waifu-tips {
-	opacity: 0;
-	width: 250px;
-	height: auto;
-	min-height: 70px;
-	margin: -20px 20px;
-	padding: 7px 10px;
+	animation: shake 50s ease-in-out 5s infinite;
+	background-color: rgba(236, 217, 188, .5);
+	border: 1px solid rgba(224, 186, 140, .62);
 	border-radius: 12px;
-	box-sizing: border-box;
-	box-shadow: 0 0 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24);
-	transition: box-shadow .2s ease;
-	background: #fafafa;
-	color: #333;
-	font-size: 12px;
-	text-overflow: ellipsis;
+	box-shadow: 0 3px 15px 2px rgba(191, 158, 118, .2);
+	font-size: 14px;
+	line-height: 24px;
+	margin: -30px 20px;
+	min-height: 70px;
+	opacity: 0;
 	overflow: hidden;
+	padding: 5px 10px;
 	position: absolute;
-	animation-delay: 5s;
-	animation-duration: 50s;
-	animation-iteration-count: infinite;
-	animation-name: shake;
-	animation-timing-function: ease-in-out;
+  left: 50px;
+	text-overflow: ellipsis;
+	transition: opacity 1s;
+	width: 200px;
+	word-break: break-all;
 }
 
 #waifu-tips.waifu-tips-active {
@@ -63,26 +62,30 @@
 	transition: opacity .2s;
 }
 
-#waifu-tips span {
+#waifu-tips .fa-lg {
 	color: #0099cc;
 }
 
-#waifu #live2d {
+#live2d {
 	cursor: grab;
+	height: 300px;
 	position: relative;
+  left: 30px;
+	width: 300px;
+  transform: translate(0)  rotate(180deg) scale(-0.7);
 }
 
-#waifu #live2d:active {
+#live2d:active {
 	cursor: grabbing;
 }
 
 #waifu-tool {
-	display: none;
 	color: #aaa;
 	opacity: 0;
 	position: absolute;
 	right: -10px;
 	top: 70px;
+  transform: translate(0)  rotate(180deg) scale(-0.7);
 	transition: opacity 1s;
 }
 
@@ -90,18 +93,17 @@
 	opacity: 1;
 }
 
-#waifu-tool span {
-	color: #5b6c7d;
+#waifu-tool .fa-lg {
+	color: #7b8c9d;
 	cursor: pointer;
 	display: block;
-	line-height: 30px;
+	height: 30px;
 	text-align: center;
 	transition: color .3s;
 }
 
-#waifu-tool span:hover {
-	color: #0684bd;
-	/* #34495e */
+#waifu-tool .fa-lg:hover {
+	color: #0684bd; /* #34495e */
 }
 
 @keyframes shake {
@@ -301,207 +303,7 @@
 		transform: translate(-1.5px, -1.5px) rotate(-.5deg);
 	}
 
-	0%,
-	100% {
+	0%, 100% {
 		transform: translate(0, 0) rotate(0);
 	}
-}
-
-.live2d-tool {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: auto;
-	height: auto;
-	z-index: 100;
-	border-radius: 5px;
-	font-size: 13px;
-	cursor: pointer;
-	font-family: Ubuntu
-}
-
-@media(min-width:861px) {
-	.live2d-tool {
-		border-radius: 0 5px 5px 0;
-		width: 35px;
-		left: 17px;
-		color: #fff;
-		font-size: 13px;
-		padding: 5px 0;
-		padding-top: 5px;
-		padding-right: 0;
-		padding-bottom: 5px;
-		padding-left: 17px;
-		font-weight: 700;
-		z-index: 99;
-		visibility: visible;
-		writing-mode: vertical-rl;
-		transiton-property: left, bottom;
-		transition-duration: .5s, .5s
-	}
-
-	.live2d-tool:hover {
-		left: 0
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.isWebKit .live2d-tool {
-		position: fixed;
-		left: 0;
-		width: auto;
-		height: auto;
-		z-index: 100;
-		border-radius: 5px;
-		font-size: 13px;
-		cursor: pointer
-	}
-
-	@media(min-width:861px) {
-		.isWebKit .live2d-tool {
-			border-radius: 0 5px 5px 0;
-			width: 35px;
-			margin-left: -35px;
-			color: #fff;
-			font-size: 13px;
-			padding: 5px 0;
-			padding-top: 5px;
-			padding-right: 0;
-			padding-bottom: 5px;
-			padding-left: 17px;
-			font-weight: 700;
-			z-index: 99;
-			writing-mode: vertical-rl;
-			transiton-property: margin-left, bottom;
-			transition-duration: .5s, .5s
-		}
-
-		.isWebKit .live2d-tool:hover {
-			margin-left: -17px
-		}
-	}
-}
-
-@media(max-width:860px) {
-	.live2d-tool {
-		padding: 0 5px
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.live2d-tool {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		width: auto;
-		height: auto;
-		z-index: 100;
-		border-radius: 5px;
-		font-size: 13px;
-		cursor: pointer
-	}
-
-	@media(min-width:861px) {
-		.live2d-tool {
-			border-radius: 0 5px 5px 0;
-			width: 35px;
-			left: 17px;
-			color: #fff;
-			font-size: 13px;
-			padding: 5px 0;
-			padding-top: 5px;
-			padding-right: 0;
-			padding-bottom: 5px;
-			padding-left: 0;
-			font-weight: 700;
-			z-index: 90;
-			writing-mode: vertical-rl;
-			transiton-property: margin-left, bottom;
-			transition-duration: .5s, .5s
-		}
-
-		.live2d-tool:hover {
-			margin-left: 0
-		}
-	}
-}
-
-@supports(-ms-ime-align:auto) {
-	.live2d-tool {
-		margin-left: 0;
-		left: 17px;
-		transiton-property: left, bottom
-	}
-
-	.live2d-tool:hover {
-		margin-left: 0
-	}
-}
-
-.live2d-tool .keys {
-	position: relative
-}
-
-.hide-live2d {
-	bottom: 0px;
-	visibility: visible
-}
-
-.close-live2d {
-	visibility: hidden
-}
-
-.live2d-pio,
-.live2d-tia {
-	visibility: hidden
-}
-
-.switch-live2d {
-	visibility: hidden
-}
-
-.save-live2d {
-	visibility: hidden
-}
-
-@media(min-width:861px) {
-	.hide-live2d {
-		background-color: #16a085;
-		bottom: 185px;
-		visibility: visible;
-		min-height: 38.75px
-	}
-
-	.close-live2d {
-		background-color: #b854d4;
-		bottom: 21px;
-		visibility: visible;
-		min-height: 45px
-	}
-
-	.live2d-pio,
-	.live2d-tia {
-		background-color: #c3a6cb;
-		bottom: 156px;
-		visibility: visible;
-		min-height: 20px
-	}
-
-	.switch-live2d {
-		background-color: #16a;
-		bottom: 105px;
-		visibility: visible;
-		min-height: 51px
-	}
-
-	.save-live2d {
-		background-color: orange;
-		bottom: 66px;
-		visibility: visible;
-		min-height: 39.3px
-	}
-}
-
-.hide-live2d-tool {
-	bottom: 15px
 }
